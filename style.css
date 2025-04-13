@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav__list-item{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.nav__shoping{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav{
+    box-shadow: 8px 4px 8.7px 0px #000000;
+}
+
+span{
+    font-family: 'Inter';
+font-weight: 600;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+span{
+    color: #0D0C5C;
+}
+
+input{
+    width: 386px;
+height: 63px;
+top: 216px;
+left: 444px;
+border-radius: 20px;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+    background-color: black;
+    padding: 21px 17px;
+    color: white;
+    
+}
+
+button{
+    width: 116px;
+height: 63px;
+top: 216px;
+left: 852px;
+border-radius: 20px;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+background-color: #0D0D5B;
+color: white;
+}
+
+.span{
+    color: #EF400F;
+}
+
+.cards{
+    background: #FFFFFF;
+    width: 290px;
+    height: 290px;
+    top: 396px;
+    left: 97px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 13.3px 0px #00000040;
+    padding: 10px;
+    text-align: center;
+}
+
+.p{
+    font-family: 'Inter';
+font-weight: 300;
+font-size: 13px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000BF;
+}
+
+p{
+    font-family: 'Inter';
+font-weight: 500;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carda{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.magazin__logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+input, button{
+    gap: 97px;
+}
+
+.backgroind__white{
+    background-color: white;
+    width: 1519px;
+height: 65px;
+align-items: center;
+top: 1374px;
+border-width: 1px;
+box-shadow: 0px 4px 17.9px 0px #00000040;
+
+}
+
+.a{
+    text-decoration: underline;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
